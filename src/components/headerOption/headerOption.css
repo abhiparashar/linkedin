@@ -1,3 +1,11 @@
-.headeroption{
-    display: flex;
+.headeroption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: gray;
+  cursor: pointer;
+}
+.headeroption:hover{
+    color: black;
 }
