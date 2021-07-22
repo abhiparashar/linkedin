@@ -5,9 +5,10 @@
 .feed__input_container{
     background-color: white;
     padding: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
+    height: fit-content;
 }
 .feed__input{
     border: 1px solid gray;
@@ -30,4 +31,15 @@
 }
 .feed__input form button{
     display: none;
+}
+.feed__inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feed__inputOptions:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.h4{
+
 }
