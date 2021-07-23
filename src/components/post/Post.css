@@ -1,0 +1,36 @@
+.post{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.post__header{
+    display: flex;
+    margin-bottom: 5px;
+    color: black;
+}
+.post__info{
+    display: flex;
+    flex-direction: column;
+}
+.h2{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+.p{
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}
+.post__body{
+    overflow-wrap: anywhere;
+}
+.post__button{
+    display: flex;
+    margin-top: -15px;
+}
