@@ -2,7 +2,6 @@ import React from "react";
 import "./Sidebar.css";
 import Mountain from "../../img/eberhard-grossgasteiger-G9obWyQA9rQ-unsplash.jpg";
 import { Avatar } from "@material-ui/core";
-import AddIcon from "@material-ui/icons/Add";
 
 const Sidebar = () => {
   return (
